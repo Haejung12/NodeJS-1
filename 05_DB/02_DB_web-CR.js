@@ -144,7 +144,7 @@ var app = http.createServer(function(req, res) {
         });
     } else {
         res.writeHead(404);
-        res.end('Not found');
+        res.end('Not fouㄹㄹd');
     }
 });
 app.listen(3000);
