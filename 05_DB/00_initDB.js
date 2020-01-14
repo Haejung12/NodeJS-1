@@ -43,7 +43,7 @@ db.serialize(function() {
 
     db.each(selectSql, function(err, row) {
         console.log(row.id, row.title, row.writer, row.ts, row.hit)
-        console.log('\t' + row.content);
+        console.log('\t' + row.conㄴㅁㅇㅁtent);
     });
 });
 
